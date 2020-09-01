@@ -29,15 +29,11 @@ Install (or modify) the installation of ABAQUS License Server
 	  Example: ```tar -C /myfolder -zxvf yourfile.tar.gz```
   
   2.3 Start ABAQUS license server
-  
-          /usr/simulia/license/lmgrd -c /usr/simulia/license/ABAQUS.lic	
-
+          ```/usr/simulia/license/lmgrd -c /usr/simulia/license/ABAQUS.lic```	
     You can either kill the process to restart by
-    
-    	killall -9 ABAQUSLM
-    
-    or go to htop and search the process and kill it manually.
-    This initiation process may need some libraries to be installed. Use sudo apt-get <required library> to install it.       
+    	```killall -9 ABAQUSLM```    
+    or go to ```htop``` and search the process and ```kill``` it manually.
+    This initiation process may need some libraries to be installed. Use ```sudo apt-get <required library>``` to ```install``` it.       
     Using Google search helps to find the exact terminologies.
   
   There was no documnetations included in the downloaded file, so the documentations installation was igonred.
@@ -49,24 +45,25 @@ Install (or modify) the installation of ABAQUS License Server
       folder.
   
   3.2 Start installation process sequentially:
-       3.2.1 ABAQUS SOLVERS using command-line:       
-              ```cd <mounted CD folder>
+  
+       3.2.1 ABAQUS SOLVERS using command-line:          
+	      cd <mounted CD folder>
 	            export DSYAuthOS_`lsb_release -si`=1 && export DSY_Force_OS=linux_a64 && ksh ./StartGUI.sh     
 	            Installation Directory: /opt/DassaultSystemes/SimulationServices/V6R2016X
 	             *Note: If error occured (not found error): Make the directory, each level at a time by 
                     mkdir <directoryName>```
               **Note: If the installer asked to remove a duplicated folder use this:      
-			```rm -r /opt/DassaultSystemes/SimulationServices/V6R2016X/*```
+			rm -r /opt/DassaultSystemes/SimulationServices/V6R2016X/*
+			
        3.2.2 ABAQUS CAE using command-line from step 2.4
-            ```Installation Directory: /opt/DassaultSystemes/SIMULIA/CAE/2016/
+            Installation Directory: /opt/DassaultSystemes/SIMULIA/CAE/2016/
 	          Path To ABAQUS Solvers: /opt/DassaultSystemes/SimulationServices/V6R2016X
 	          Path to ABAQUS Commands: /var/DassaultSystemes/SIMULIA/ (by default)
 	          Licensing: SIMULIA FlexNet with "27011@localhost" as License Server 1
 	          Working Directory: /var/tmp (default)```
             *Note: The installation may get stuck for a while, especifically when the file removal process begins, 
                    you may cancel isntallation and still get your installation completed.
-           
-    
+               
   Step 4: SOFTWARE RUN
       To run, use the following command:
 	      ```/var/DassaultSystemes/SIMULIA/Commands/abq2016 cae (you may also add sudo)```
