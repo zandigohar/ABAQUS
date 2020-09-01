@@ -1,6 +1,6 @@
 # ABAQUS-CAE (SIMULIA) Instalation in Ubuntu - SolidSquad SSQ Team
 
-Step 1: Pre-reqs
+Step 1: PRE-REQS
 
 Install ksh shell interpreter
 
@@ -17,20 +17,25 @@ Step 2: SERVER
 
 Install (or modify) the installation of ABAQUS License Server
   2.1 Login as root
+  ```
         sudo -s
-  
+  ```
   2.2 Unpack simulia.tar.gz to a destination, say /usr/. This is the license files folder that needs to be started.
   	How to open or Untar a "tar.gz" file in Linux or Unix:
 	  The following tutorial assumes the name of your file is yourfile.tar.gz Replace with your actual filename.
 	  From the terminal, change to the directory where yourfile.tar.gz has been downloaded.
-	  Type tar -zxvf yourfile.tar.gz to extract the file to the current directory.
-	  You can specify a different directory to extract to using -C parameter and a path to the directory as follows:
-	  Example: tar -C /myfolder -zxvf yourfile.tar.gz
+	  Type ```tar -zxvf yourfile.tar.gz``` to extract the file to the current directory.
+	  You can specify a different directory to extract to using ```-C``` parameter and a path to the directory as follows:
+	  Example: ```tar -C /myfolder -zxvf yourfile.tar.gz```
   
   2.3 Start ABAQUS license server
+  ```
           /usr/simulia/license/lmgrd -c /usr/simulia/license/ABAQUS.lic	
-    You can either kill the process to restart by 
+  ```  
+    You can either kill the process to restart by
+    ```
           killall -9 ABAQUSLM
+    ```
     or go to htop and search the process and kill it manually.
     This initiation process may need some libraries to be installed. Use sudo apt-get <required library> to install it.       
     Using Google search helps to find the exact terminologies.
