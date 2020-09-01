@@ -85,6 +85,7 @@ Install (or modify) the installation of ABAQUS License Server
  Appendix
  
   A.1 Getting Graphics Card Info
+  
       ```sudo lshw -c video```
     
 This is the end of manual.
