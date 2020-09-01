@@ -3,14 +3,16 @@
 Step 1: Pre-reqs
 
 Install ksh shell interpreter
-'''
+
+```
         sudo apt-get update -y
         sudo apt-get install -y ksh
-'''
+```
 Install lsb-release
+```
         sudo apt-get update -y
         sudo apt-get install -y lsb-release
-        
+```
 Step 2: SERVER
 
 Install (or modify) the installation of ABAQUS License Server
