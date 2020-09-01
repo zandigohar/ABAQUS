@@ -29,13 +29,13 @@ Install (or modify) the installation of ABAQUS License Server
 	  Example: ```tar -C /myfolder -zxvf yourfile.tar.gz```
   
   2.3 Start ABAQUS license server
-  ```
-          /usr/simulia/license/lmgrd -c /usr/simulia/license/ABAQUS.lic	
-  ```  
+  
+          ```/usr/simulia/license/lmgrd -c /usr/simulia/license/ABAQUS.lic```	
+	  
     You can either kill the process to restart by
-    ```
-          killall -9 ABAQUSLM
-    ```
+    
+          ```killall -9 ABAQUSLM```
+    
     or go to htop and search the process and kill it manually.
     This initiation process may need some libraries to be installed. Use sudo apt-get <required library> to install it.       
     Using Google search helps to find the exact terminologies.
