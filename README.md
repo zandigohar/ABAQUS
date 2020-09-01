@@ -37,7 +37,7 @@ Install (or modify) the installation of ABAQUS License Server
     This initiation process may need some libraries to be installed. Use ```sudo apt-get <required library>``` to ```install``` it.       
     Using Google search helps to find the exact terminologies.
   
-  There was no documnetations included in the downloaded file, so the documentations installation was igonred.
+  There was no documentations included in the downloaded file, so the documentations installation was igonred.
   
   Step 3: ABAQUS INSTALLATION
   
@@ -64,7 +64,7 @@ Install (or modify) the installation of ABAQUS License Server
 	          Licensing: SIMULIA FlexNet with "27011@localhost" as License Server 1
 	          Working Directory: /var/tmp (default)
             *Note: The installation may get stuck for a while, especifically when the file removal process begins, 
-                   you may cancel isntallation and still get your installation completed.
+                   you may cancel installation and still get your installation completed.
                
   Step 4: SOFTWARE RUN
       To run, use the following command:
@@ -79,7 +79,7 @@ Install (or modify) the installation of ABAQUS License Server
       
  Appendix
  
-  A.1 Getting Graphics Card Info
+  A.1 Getting Graphic Card Info
   
       	sudo lshw -c video
     
