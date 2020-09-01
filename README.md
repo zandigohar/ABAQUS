@@ -1,4 +1,5 @@
-# ABAQUS-CAE (SIMULIA) Instalation in Ubuntu - SolidSquad SSQ Team
+# ABAQUS-CAE (SIMULIA) Installation in Ubuntu
+SolidSquad SSQ Team Modified Method
 
 Step 1: PRE-REQS
 
