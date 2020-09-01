@@ -53,8 +53,9 @@ Install (or modify) the installation of ABAQUS License Server
 	            Installation Directory: /opt/DassaultSystemes/SimulationServices/V6R2016X
 	             *Note: If error occured (not found error): Make the directory, each level at a time by 
                     mkdir <directoryName>```
-              **Note: If the installer asked to remove a duplicated folder use this:      
+              	    **Note: If the installer asked to remove a duplicated folder use this:      
 			rm -r /opt/DassaultSystemes/SimulationServices/V6R2016X/*
+		    ***Note: You may need to change X to x if error occured.
 			
        3.2.2 ABAQUS CAE using command-line from step 2.4
             Installation Directory: /opt/DassaultSystemes/SIMULIA/CAE/2016/
