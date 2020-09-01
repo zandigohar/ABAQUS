@@ -62,7 +62,7 @@ Install (or modify) the installation of ABAQUS License Server
 	          Path To ABAQUS Solvers: /opt/DassaultSystemes/SimulationServices/V6R2016X
 	          Path to ABAQUS Commands: /var/DassaultSystemes/SIMULIA/ (by default)
 	          Licensing: SIMULIA FlexNet with "27011@localhost" as License Server 1
-	          Working Directory: /var/tmp (default)```
+	          Working Directory: /var/tmp (default)
             *Note: The installation may get stuck for a while, especifically when the file removal process begins, 
                    you may cancel isntallation and still get your installation completed.
                
