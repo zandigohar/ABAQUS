@@ -68,7 +68,9 @@ Install (or modify) the installation of ABAQUS License Server
                
   Step 4: SOFTWARE RUN
       To run, use the following command:
-	      ```/var/DassaultSystemes/SIMULIA/Commands/abq2016 cae (you may also add sudo)```
+	      ```sh
+	      /var/DassaultSystemes/SIMULIA/Commands/abq2016 cae (you may also add sudo)
+	      ```
       However, if error occured you need to install required libraries. 
       Probably: ```apt install libstdc++5``` and ```apt install libjpeg62``` 
       Maybe: ```apt install gcc-5``` and ```apt install g++-5```
