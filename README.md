@@ -41,7 +41,7 @@ Install (or modify) the installation of ABAQUS License Server
   
   Step 3: ABAQUS INSTALLATION
   
-  While staying as root in terminal, it's time to install DS SIMULIA ABAQUS 2016.
+  While staying as root in terminal, it's time to install DS SIMULIA ABAQUS 2016.\
   3.1 Mount the ISO image. You can either do it manually or via terminal. The mounted file will be available in mount         
       folder.
   
@@ -77,7 +77,7 @@ Install (or modify) the installation of ABAQUS License Server
       This may make graphics low quality, transparent or disatisfactory.\
       To resolve this issue use:\
 	      ```sudo XLIB_SKIP_ARGB_VISUALS=1 /var/DassaultSystemes/SIMULIA/Commands/abq2016 cae -mesa```
-
+      If license error occured, start the license manager again.
       
  Appendix
  
