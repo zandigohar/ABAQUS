@@ -68,7 +68,7 @@ Install (or modify) the installation of ABAQUS License Server
                
   Step 4: SOFTWARE RUN
       To run, use the following command:
-	      ```sh
+	      ```
 	      /var/DassaultSystemes/SIMULIA/Commands/abq2016 cae (you may also add sudo)
 	      ```
       However, if error occured you need to install required libraries. 
