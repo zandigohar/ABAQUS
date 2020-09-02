@@ -72,11 +72,10 @@ Install (or modify) the installation of ABAQUS License Server
       However, if error occured you need to install required libraries. 
       Probably: ```apt install libstdc++5``` and ```apt install libjpeg62``` 
       Maybe: ```apt install gcc-5``` and ```apt install g++-5```
-      If the error still occured use the following      
-      command:
+      If the error still occured use the following command:\
           ```sudo /var/DassaultSystemes/SIMULIA/Commands/abq2016 cae -mesa```
-      This may make graphics low quality, transparent or disatisfactory.
-      To resolve this issue use:
+      This may make graphics low quality, transparent or disatisfactory.\
+      To resolve this issue use:\
 	      ```sudo XLIB_SKIP_ARGB_VISUALS=1 /var/DassaultSystemes/SIMULIA/Commands/abq2016 cae -mesa```
 
       
